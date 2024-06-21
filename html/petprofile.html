@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello Pet - Pet Profile</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/portfolio/website-works/04/css/style.css" />
+  </head>
+  <body>
+    <div class="petprofile">
+      <div class="petprofile-inner">
+        <div class="petprofile-top">
+          <video
+            src="/portfolio/website-works/04/img/petprofile_dog.mp4"
+            type="video/mp4"
+            autoplay
+            loop
+          ></video>
+        </div>
+        <div class="petprofile-bottom">
+          <video
+            src="/portfolio/website-works/04/img/petprofile_cat.mp4"
+            autoplay
+            loop
+          ></video>
+        </div>
+      </div>
+      <div class="petprofile-bg"></div>
+      <div class="petprofile-content">
+        <div onclick="go_to_main()" class="petprofile-close">
+          나중에 선택할게요
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <button onclick="go_to_petprofile_detail()" class="btn-choice-dog">
+          강아지
+        </button>
+        <div class="petprofile-title">
+          <h2>나의 반려동물은?</h2>
+        </div>
+        <button onclick="go_to_petprofile_detail()" class="btn-choice-cat">
+          고양이
+        </button>
+      </div>
+    </div>
+    <!-- Custom JS -->
+    <script src="/portfolio/website-works/04/js/custom.js"></script>
+  </body>
+</html>

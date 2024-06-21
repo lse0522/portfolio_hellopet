@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello Pet - Search</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/portfolio/website-works/04/css/style.css" />
+  </head>
+  <body>
+    <div class="search-page">
+      <!-- main-header-include -->
+      <div class="main-header-include"></div>
+      <!-- main-header-include -->
+
+      <div class="search-inner">
+        <!-- search input -->
+        <div class="search-field-container">
+          <input type="text" placeholder="검색어를 입력해 주세요." />
+        </div>
+
+        <!-- search history container  -->
+        <div class="search-history-container">
+          <div class="search-history-heading">
+            <p>최근 검색어</p>
+            <button onclick="btn_search_clear_all(event)" class="btn-clear-all">
+              전체삭제
+            </button>
+          </div>
+          <div class="search-history-content">
+            <div class="item">
+              <span>고양이 터널</span>
+              <button onclick="btn_search_clear(event)" class="btn-clear">
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
+            <div class="item">
+              <span>사료</span>
+              <button onclick="btn_search_clear(event)" class="btn-clear">
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
+            <div class="item">
+              <span>고양이 낚시대</span>
+              <button onclick="btn_search_clear(event)" class="btn-clear">
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
+          </div>
+          <div class="search-history-not-content">
+            <h4>최근 검색어 내역이 없습니다.</h4>
+            <span>어떤 상품을 찾으시나요?</span>
+          </div>
+        </div>
+
+        <!-- search popular container -->
+        <div class="search-popular-container">
+          <div class="search-popular-heading">
+            <p>급상승 검색어</p>
+            <span>최근 1시간 동안 검색 횟수가 급상승 했어요!</span>
+          </div>
+          <div class="search-popular-content">
+            <ul class="search-popular-list">
+              <li>
+                <b></b>
+                <p>사료</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>츄르</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>스크래쳐</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>습식사료</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>숨숨집</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>낚시대</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>낚시대</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>이동장</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>인형</p>
+                <span></span>
+              </li>
+              <li>
+                <b></b>
+                <p>안전문</p>
+                <span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gnb-include -->
+      <div class="gnb-include"></div>
+      <!-- Gnb-include -->
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/portfolio/website-works/04/js/load.js"></script>
+    <script src="/portfolio/website-works/04/js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* Font Family CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* Font Icon CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* XEION CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+:root {
+  /* Font Family */
+  --primary : "Noto Sans KR", sans-serif;
+
+  /* Text Color */
+  --black : #000;
+  --white : #fff;
+  --dark-gray : #777777;
+  --light-gray : #999999;
+  --silver-gray : #C0C0C0;
+  --gloudy-gray : #eeeeee;
+  
+  /* Object Color */
+  --main-color: #FCCF32;
+  --main-color-opacity : #fcd0323d;
+  --crimson : #D95555;
+  --snow : #F5F5F5;
+}

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello Pet - Pet Profile Detail</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/portfolio/website-works/04/css/style.css">
+  </head>
+  <body>
+    <div class="container petprofile-detail">
+      <div class="petprofile-detail-inner">
+        <div class="petprofile-detail-header">
+          <p>반려동물 등록하기</p>
+        </div>
+        <div class="petprofile-detail-photo">
+          <label for="input-file"></label>
+          <input type="file" id="input-file" style="display: none;"/>
+        </div>
+        <div class="petprofile-detail-container">
+          <div class="petprofile-detail-field">
+            <label>이름을 입력해 주세요 <em>*</em></label>
+            <input id="input_name_value" type="text" placeholder="1~8자 이내로 작성해 주세요.">
+            
+            <label>묘종을 등록해주세요 <em>*</em></label>
+            <button onclick="breed_select_modal_open()">묘종 등록해주세요.</button>
+            <label>생일을 입력해주세요</label>
+            <div class="birthday-field">
+              <input type="text" placeholder="년도(4자)">
+              <select>
+                <option value="">월</option>
+                <option value="">1월</option>
+                <option value="">2월</option>
+                <option value="">3월</option>
+                <option value="">4월</option>
+                <option value="">5월</option>
+                <option value="">6월</option>
+                <option value="">7월</option>
+                <option value="">8월</option>
+                <option value="">9월</option>
+                <option value="">10월</option>
+                <option value="">11월</option>
+                <option value="">12월</option>
+              </select>
+              <input type="text" placeholder="일">
+            </div>
+            <label>성별을 입력해 주세요</label>
+            <div class="gender-field">
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">
+                  남아
+              </label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="female">
+                여아
+              </label>
+            </div>
+            <label>체형을 선택해 주세요</label>
+            <div class="weight-field">
+              <input type="radio" name="weight" id="slim" value="slim">
+              <label for="slim">
+                날씬해요
+              </label>
+              <input type="radio" name="weight" id="average" value="average">
+              <label for="average">
+                적당해요
+              </label>
+              <input type="radio" name="weight" id="chubby" value="chubby">
+              <label for="chubby">
+                통통해요
+              </label>
+            </div>
+            <label>혹시 알러지가 있나요?</label>
+            <div class="allergy-field">
+              <input type="radio" name="allergy" id="allergy-yes" value="allergy-yes">
+              <label for="allergy-yes">
+                네, 있어요
+              </label>
+              <input type="radio" name="allergy" id="allergy-no" value="allergy-no">
+              <label for="allergy-no">
+                아니요, 없어요
+              </label>
+            </div>
+          </div>
+        </div>
+        <button onclick="btn_upload_pet()" class="btn-upload-pet">등록할게요</button>
+      <div class="breed-select-modal">
+        <div onclick="breed_select_modal_close()" class="breed-modal-close">
+          <p>다음에 선택할래요.</p>
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <div class="search-input">
+          <input type="text" placeholder="묘종을 입력하세요">
+        </div>
+        <div class="breed-select-ul">
+          <ul>
+            <li>세상에 하나뿐인 믹스</li>
+            <li>네벨룽</li>
+            <li>노르웨이 숲고양이</li>
+            <li>랙돌</li>
+            <li>러시안 블루</li>
+            <li>먼치킨</li>
+            <li>먼치킨 롱헤어</li>
+            <li>메인쿤</li>
+            <li>뱅갈</li>
+            <li>봄베이</li>
+            <li>브리티시 롱헤어</li>
+            <li>브리티시 쇼트헤어</li>
+            <li>사바나</li>
+            <li>샴</li>
+            <li>스코티시 스트레이트</li>
+            <li>스코티시 폴드</li>
+            <li>스코티시 폴드 롱헤어</li>
+            <li>스핑크스</li>
+            <li>시베리안 고양이</li>
+            <li>아메리칸 밥테일 쇼트헤어</li>
+            <li>아메리칸 쇼트헤어</li>
+            <li>아메리칸 컬</li>
+            <li>아비시니안</li>
+            <li>터키시 앙고라</li>
+            <li>페르시안</li>
+            <li>기타</li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </div>
+
+          <!-- Custom JS -->
+    <script src="/portfolio/website-works/04/js/custom.js"></script>
+    </body>
+    </html>
+    
