@@ -19,7 +19,7 @@ function btn_login() {
     alert("아이디 또는 비밀번호를 잘못 입력했습니다.");
   } else {
     alert("로그인 성공.");
-    window.location.href = "/portfolio/website-works/04/html/main.html";
+    window.location.href = "/html/main.html";
   }
 }
 // 핸드폰 인증
@@ -67,16 +67,16 @@ function signup_test() {
     alert("이용약관에 동의해주세요.");
   } else {
     alert("회원가입 성공.");
-    window.location.href = "/portfolio/website-works/04/html/petprofile.html";
+    window.location.href = "/html/petprofile.html";
   }
 }
 // Go To Main
 function go_to_main() {
-  window.location.href = "/portfolio/website-works/04/html/main.html";
+  window.location.href = "/html/main.html";
 }
 // Go To PetProfileDetail
 function go_to_petprofile_detail() {
-  window.location.href = "/portfolio/website-works/04/html/petprofiledetail.html";
+  window.location.href = "/html/petprofiledetail.html";
 }
 // PetProfileDetail Modal Open
 function breed_select_modal_open() {
@@ -89,7 +89,7 @@ function breed_select_modal_close() {
 }
 // UpLoad Pet
 function btn_upload_pet() {
-  window.location.href = "/portfolio/website-works/04/html/main.html";
+  window.location.href = "/html/main.html";
 }
 
 // Main Slider

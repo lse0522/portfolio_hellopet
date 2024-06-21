@@ -1,6 +1,6 @@
 /* Import Local CSS */
-@import url('/portfolio/website-works/04/css/reset.css');
-@import url('/portfolio/website-works/04/css/variables.css');
+@import url('/css/reset.css');
+@import url('/css/variables.css');
 /* ###################### Comment CSS ###################### */
 *{
   font-family: var(--primary);
@@ -163,7 +163,7 @@ header > div{
 }
 /* ###################### Preloading ###################### */
 .preloading{
-  background:  var(--main-color) url(/portfolio/website-works/04/img/preloading-bg.png) no-repeat center bottom 50px;
+  background:  var(--main-color) url(/img/preloading-bg.png) no-repeat center bottom 50px;
   text-align: center;
   color: var(--white);
   height: 100vh;
@@ -259,7 +259,7 @@ header > div{
 }
 .search-input input[type=text],
 .search-field-container input[type=text]{
-  background: url(/portfolio/website-works/04/img/search.svg) no-repeat center right 20px;
+  background: url(/img/search.svg) no-repeat center right 20px;
 }
 .btn-product-details-more{
   position: absolute;
